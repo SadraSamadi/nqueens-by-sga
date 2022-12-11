@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nqueens"
+version = "1.0.0"
+description = "Solving N-Queens problem by Simple Genetic Algorithm"
+authors = ["Sadra Samadi <sadra.smd@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+main = "nqueens.main:run"
+
+[tool.poetry.dependencies]
+matplotlib = "^3.6.2"
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
