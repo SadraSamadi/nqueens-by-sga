@@ -93,7 +93,7 @@ def evaluate(population):
     Calculate the mean fitness of population
     """
     fs = map(fitness, population)
-    return sum(fs) / len(population)
+    return sum(fs) / population_size
 
 
 def show_solutions(population, show_configuration=False):
