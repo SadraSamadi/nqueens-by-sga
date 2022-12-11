@@ -106,7 +106,7 @@ def show_solutions(population, show_configuration=False):
         if show_configuration:
             for j in range(board_size):
                 for xi in x:
-                    c = 'Q' if j == xi else '.'
+                    c = 'Q' if j == xi else '•'
                     print(c, end=' ')
                 print()
 
