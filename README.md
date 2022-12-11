@@ -17,7 +17,7 @@ Solving N-Queens problem by Simple Genetic Algorithm in Python.
 - `git clone <url> nqueens`
 - `cd nqueens`
 - `python -m venv .venv`
-- `./venv/Scripts/activate`
+- `./.venv/Scripts/activate`
 - `pip install poetry`
 - `poetry install`
 - `poetry run main`
