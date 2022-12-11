@@ -10,7 +10,7 @@ main = "nqueens.main:run"
 
 [tool.poetry.dependencies]
 matplotlib = "^3.6.2"
-python = "^3.11"
+python = "^3.8"
 
 [build-system]
 requires = ["poetry-core"]
